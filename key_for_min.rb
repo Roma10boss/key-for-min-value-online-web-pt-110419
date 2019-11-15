@@ -6,7 +6,7 @@ ikea = {:chair => 25, :table => 85, :mattress => 450}
 veggies = {"apple" => -45, "banana" => -44.5, "carrot" => -44.9}
 
 end 
- def  key_for_min_value
+ def  key_for_min_value(new_hash)
  lowest_value = 0 
  lowest_key = NIL
  name_hash.each do |key,value|
